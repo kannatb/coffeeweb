@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>COFFEE SHOP -form</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scal=1">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+  <header>
+    <div class="wrapper flex">
+      <h1 class="subtitle"><a href="index.html">COFFEE SHOP</a></h1>
+      <div class="flex">
+        <nav class="gnavi">
+          <ul class="gnavi__list flex" id="gnavi">
+            <li class="gnavi__item"><a href="index.html">Home</a></li>
+            <li class="gnavi__item"><a href="#">News</a></li>
+            <li class="gnavi__item"><a href="menu.html">Menu</a></li>
+            <li class="gnavi__item"><a href="accsess.html">Accsess</a></li>
+            <li class="gnavi__item"><a href="#">Resevation</a></li>
+            <li class="gnavi__item"><a href="form.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="container" id="menu-btn">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+ <section class="form wrapper">
+      <h2 class="form__title">Contact</h2>
+      <form action="" method="post" name="contact-form" id="contact-form">
+        <label for="name"><p>お名前</p></label>
+        <input type="text" name="name" id="name" placeholder="name" required>
+        <label for="mail"><p>メールアドレス</p></label>
+        <input type="email" name="mail" id="mail" placeholder="example@xxx.com" required>
+        <label for="message"><p>メッセージ</p></label>
+        <textarea name="message" id="message" placeholder="お問い合わせ内容をご記入ください。"></textarea>
+        <p><input type="submit" value="送信" class="submit"></p>
+      </form>
+  </section>
+  
+  <footer>
+    <small>&copy;coffee shop</small>
+  </footer>
+</body>
+
+<script src="script/script.js"></script>
+
+</html>
